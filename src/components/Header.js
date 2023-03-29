@@ -2,7 +2,6 @@ import { Button } from "@mui/material";
 import React, { useContext } from "react";
 import { auth, provider, signInWithRedirect, signOut } from "../firebase";
 import AppContext from "./../utils/app-context";
-import { signInWithCredential } from "firebase/auth";
 
 const Header = () => {
   const user = useContext(AppContext);

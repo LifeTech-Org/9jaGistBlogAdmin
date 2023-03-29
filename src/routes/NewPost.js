@@ -13,7 +13,7 @@ import { generateKey } from "./../utils/generateKey";
 import { ref } from "firebase/storage";
 import { db, storage } from "../firebase";
 import { uploadBytes } from "firebase/storage";
-import { Timestamp, addDoc, doc, setDoc } from "firebase/firestore";
+import { Timestamp, doc, setDoc } from "firebase/firestore";
 import { getDownloadURL } from "firebase/storage";
 const NewPost = () => {
   const editorRef = useRef("Write post here.");
